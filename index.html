@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="created by Mahbub Hasan. parsonal website: https://mahbub-site.vercel.app/" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, redux, tailwind css" />
+    <title>Multi-counter Application ||Simple Counter Application</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- import redux from cdn -->
+    <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+</head>
+
+<body class="bg-gray-100">
+    <div class="w-screen h-auto p-10 text-slate-700">
+        <!-- header -->
+        <h1 class="max-w-md mx-auto text-center text-2xl font-bold">
+            Simple Counter Application
+        </h1>
+
+        <!-- counters -->
+        <div id="main-counter" class="max-w-md mx-auto mt-10 space-y-5">
+
+        </div>
+        <div class="max-w-md mx-auto mt-3 grid grid-cols-2 gap-4 relative ">
+            <div class="absolute inset-y-0 right-0 w-26">
+                <button id="addCounter" class="bg-indigo-400 text-white px-3 py-2 rounded shadow">
+                    + Add Counter
+                </button>
+                <button id="risetCounter" class="bg-red-400 text-white px-3 py-2 rounded shadow">
+                    Reset
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
